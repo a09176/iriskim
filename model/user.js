@@ -1,8 +1,7 @@
 const mongoose = require('mongoose')
 
 const userSchema = mongoose.Schema({
-    idx:Schema.Types.ObjectId
-    ,
+     
     name:{
         type:String,
         maxlength:50
@@ -17,7 +16,7 @@ const userSchema = mongoose.Schema({
     },
     phonenumber:{
         type:Number,
-        trim:ture
+        trim:true
     },
     created:{
         type:Date,
